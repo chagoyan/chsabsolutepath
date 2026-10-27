@@ -15,7 +15,7 @@ import time
 
 from PIL import Image, ImageChops
 
-SITE = "/Users/chagoyanadmin/Desktop/ClaudeWorkspace/CHSAbsolutePath/CHSAbsolutePath"
+SITE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "CHSAbsolutePath")
 ROOT_NAME = "CHSAbsolutePath"
 DOMAIN = "https://chsabsolutepath.netlify.app/"
 WORK = tempfile.mkdtemp(prefix="chs_build_")  # scratch files and the Chrome profile go here
