@@ -1,0 +1,17 @@
+CHSAbsolutePath / Docs / notes.txt
+==================================
+
+You found the notes file! A plain .txt file opens right in the browser.
+
+Rover log, day 1
+- Every file on this site has exactly one full address.
+- Full address = site root + folders + file name.
+- The site root, https://chsabsolutepath.netlify.app/ , stands for the
+  CHSAbsolutePath folder. Never type "CHSAbsolutePath" after the .app/
+
+Rover log, day 2
+- Found four files sitting right at the root:
+  favicon.ico, index.html, robots.txt, site_map.png
+- Folder names start with a capital letter: Assets, Docs, Images...
+- File names are lowercase and use underscores instead of spaces.
+- Type every name exactly as the site map shows it.

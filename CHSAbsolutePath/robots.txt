@@ -1,0 +1,6 @@
+# robots.txt gives instructions to search-engine robots.
+# It always lives at the root of a website.
+# This is a practice site, so we ask robots not to list it.
+
+User-agent: *
+Disallow: /

@@ -1,0 +1,46 @@
+/* normalize.css (practice version)
+   A "Vendor" folder holds code written by someone else.
+   The real normalize.css lives at https://necolas.github.io/normalize.css/
+   This small stand-in smooths out a few differences between browsers. */
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* The badge in the corner means this file loaded. */
+html::after {
+  content: "✓ normalize.css loaded";
+  position: fixed;
+  left: 12px;
+  bottom: 76px;
+  z-index: 9999;
+  padding: 4px 12px;
+  border: 1px solid #60a5fa;
+  border-radius: 999px;
+  background: #172554;
+  color: #bfdbfe;
+  font: 600 12px ui-monospace, Menlo, Consolas, monospace;
+  pointer-events: none;
+}
